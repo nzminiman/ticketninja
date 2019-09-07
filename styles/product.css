@@ -942,6 +942,15 @@ section
 	margin-top: 9px;
 	color: #8a8a8a;
 }
+.orders_placed
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #44a038;
+	line-height: 0.75;
+	margin-top: 13px;
+	
+}
 .in_stock_container
 {
 	margin-top: 22px;

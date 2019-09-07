@@ -1006,14 +1006,14 @@ section
 }
 .avds_small_content
 {
-	max-width: 250px;
-	padding-top: 57px;
+	max-width: 2500px;
+	padding-top: 47px;
 	padding-left: 31px;
 	padding-right: 30px;
 }
 .avds_title
 {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 600;
 	color: #FFFFFF;
 	line-height: 1.16;
@@ -1109,6 +1109,7 @@ section
 	max-width: 100%;
 	border-radius: 25px;
 }
+
 .product_content
 {
 	width: 100%;
@@ -1127,6 +1128,16 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+}
+
+.orders_placed
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #44a038;
+	line-height: 0.75;
+	margin-top: 13px;
+	
 }
 .product_title a:hover
 {

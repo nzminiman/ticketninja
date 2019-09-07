@@ -832,6 +832,7 @@ section
 {
 	position: absolute;
 	top: 50%;
+	z-index: 2;
 	left: 0;
 	border-radius: 25px
 	-webkit-transform: translateY(-50%);
@@ -873,7 +874,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	z-index: 2;
+	
 }
 
 /* Sorting Bar */
@@ -990,6 +991,7 @@ section
 {
 	width: calc((100% - 90px) / 4);
 	margin-bottom: 59px;
+	
 
 }
 .product_image
@@ -1007,6 +1009,7 @@ section
 	width: 100%;
 	padding-top: 36px;
 	padding-bottom: 38px;
+	z-index: 1;
 }
 .product_title a
 {
@@ -1019,6 +1022,16 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+}
+
+.orders_placed
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #44a038;
+	line-height: 0.75;
+	margin-top: 13px;
+	
 }
 .product_title a:hover
 {
