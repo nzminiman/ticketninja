@@ -15,7 +15,7 @@
 
 <div class="super_container">
 
-<!-- Header -->
+	<!-- Header -->
 
 	<header class="header">
 		<div class="header_container">
@@ -30,10 +30,10 @@
 									<li class="hassubs">
 										<a href="upcomingConcerts.html">Upcoming Concerts</a>
 										<ul>
-											<li><a href="rv.html">Rythem and vines</a></li>
+											<li><a href="rv.html">Rhythm and vines</a></li>
 											<li><a href="bayDreams.html">Bay Dreams</a></li>
 											<li><a href="soundSplash.html">SoundSplash</a></li>
-											<li><a href="upcoming.html">Upcoming</a></li>
+											<li><a href="teaparty.html">UCSA Tea Party</a></li>
 										</ul>
 									</li>
 									<li><a href="howItWorks.html">How it works</a></li>
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 
-	
+
 	</header>
 
 	<!-- Menu -->
@@ -68,14 +68,15 @@
 					<li class="page_menu_item has-children menu_mm">
 						<a href="upcomingConcerts.html">Up coming events<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="wiggles.html">Wiggles<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="edSheeren.html">Ed Sheeren<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="eltonJohn.html">Elton John<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="postMalone.html">Post Malone<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="rv.html">Rhythm and vines<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="bayDreams.html">Bay Dreams<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="soundSplash.html">SoundSplash<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="teaparty.html">UCSA Tea Party<i class="fa fa-angle-down"></i></a></li>
+							
 						</ul>
 					</li>
-					<li class="page_menu_item menu_mm"><a href="index#.html">How it works<i class="fa fa-angle-down"></i></a></li>
-					<li class="page_menu_item menu_mm"><a href="#">Testimonials<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="howItWorks.html">How it works<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="testimonials.html">Testimonials<i class="fa fa-angle-down"></i></a></li>
 					<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
 				</ul>
 			</div>
@@ -83,14 +84,6 @@
 
 		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 
-		<div class="menu_social">
-			<ul>
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
 	</div>
 	
 	<!-- Home -->
@@ -126,9 +119,33 @@
 				<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
 					<div class="slider_title">Reserve your experiance.</div>
 					<div class="slider_subtitle">You can trust us knowing our team of professional ticket ninjas can secure your event experiance. We are a start up however have 100% success so far, we take our service very seriously
-					and only have limited Ninjas avaliable. Please phone or email our team below and we will work with personally to ensure you have the best experiance posisible. Thank you.</div>
+					and only have limited Ninjas avaliable. Please feel free to phone or email our team below and we will work with personally to ensure you have the best experiance posisible. Thank you.</div>
 					<div class="contact_subtitle">Phone: 021 071 0883 </div> 
-					<div class="contact_subtitle"> Email: ticketNinja@gmail.com </div>
+					<div class="contact_subtitle">Email: ticketninja@gmail.com </div> 
+					<form action="#" id="contact_form" class="contact_form">
+								<div class="row">
+									<div class="col-xl-6">
+										<!-- Name -->
+										<label for="contact_form2">First Name*</label>
+										<input type="text" id="contact_name" class="contact_input" required="required">
+									</div>
+									<div class="col-xl-6 last_name_col">
+										<!-- Last Name -->
+										<label for="contact_last_name">Last Name*</label>
+										<input type="text" id="contact_last_name" class="contact_input" required="required">
+									</div>
+								</div>
+								<div>
+									<!-- Subject -->
+									<label for="contact_company">Event*</label>
+									<input type="text" id="contact_company" class="contact_input">
+								</div>
+								<div>
+									<label for="contact_textarea">Preferred way of contact*</label>
+									<textarea id="contact_textarea" class="contact_input contact_textarea" required="required"></textarea>
+								</div>
+								<button class="button contact_button"><span>Reserve Now</span></button>
+					</form>
 				</div>
 			</div>
 		</div>
